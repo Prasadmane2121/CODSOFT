@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Body-->
+<body id="body">
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+    <!--Home-->
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I'M<br>PRASAD MANE</h1>
+            <button class="btn"><a href="#about">Explore</a></button>
+        </div>
+    </section>
+    <!--About-->
+    <section id="about">
+        <h1 class="headings" style="color: white;">About ME</h1>
+        <div id="pic">
+            <img src="./image/me_1_new.jpg" alt="" id="my-img">
+            <div class="intro">
+                <h2 style="color: white; padding-left: 50px;">Prasad Mane</h2>
+                <p style="color: white;" id="bio">
+                    🌟 **Prasad | Full Stack Developer**
+                    <br>
+                    Completed my Bachelor's degree in 2023 with a passion for technology and innovation.
+                    <br>
+                    Proficient in a wide array of skills, specializing in web development, software engineering, and both front-end and back-end technologies.
+                    <br>
+                    Leveraging my technical expertise to craft seamless digital experiences and scalable solutions.
+                    <br>
+                    Academic Excellence: Graduated with honors, showcasing dedication and commitment to excellence.
+                    <br>
+                    Tech Toolbox: A versatile developer with skills in HTML, CSS, JavaScript, Java, and more.
+                    <br>
+                    Web Enthusiast: Creating dynamic and responsive web applications that leave a lasting impression.
+                    <br>
+                    Continuous Learner: Staying ahead in the tech landscape by embracing new tools and frameworks.
+                    <br>
+                    Future Vision: Aspiring to contribute to cutting-edge projects and make a significant impact in the tech industry.
+                    <br>
+                    Collaborative Spirit: A team player with effective communication skills, ready for exciting collaborations.
+                    <br>
+                    Let's Connect: Open to new opportunities and collaborations. Reach out at, <a href="#contact">prasadmane743@gmail.com</a>.
+                    
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="skills" style="color: white;" id="skills">
+        <h1 class="headings">Skills</h1>
+        <div class="row">
+            <div class="box">
+                <img src="./image/web.png">
+                <h3 class="heading" id="skill-top">Web Devlpoment</h3>
+                <p>Elevating Digital Experiences through Innovative Web Development Solutions</p>
+            </div>
+            <div class="box">
+                <img src="./image/soft_dev.png">
+                <h3 class="heading" id="skill-top">Software Development</h3>
+                <p>Aspiring software developer with a passion for coding and a fresh perspective. Eager to contribute
+                    innovative solutions and learn in a dynamic development environment.</p>
+            </div>
+            <div class="box">
+                <img src="./image/front_end.png">
+                <h3 class="heading" id="skill-top">Front-End Development</h3>
+                <p>Driven frontend developer with a flair for crafting immersive user interfaces, committed to bringing
+                    creativity and functionality together to deliver exceptional web experiences</p>
+            </div>
+            <div class="box">
+                <img src="./image/back.png">
+                <h3 class="heading" id="skill-top">Back-End Development</h3>
+                <p>As a backend developer with a passion for server-side logic and database management, ready to
+                    contribute to innovative projects.</p>
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" style="background: rgba(0, 0, 0, 0.7);;">
+        <h1 class="headings" style="color: white;">Projects</h1>
+        <div class="project" id="project-1">
+            <h2 style="color: white;">Project 1: Calculator</h2>
+            <p id="p1">Description:- Developed a fully functional Calculator for adiition , substraction,multiplication and division. The calculator should have a display screen to show user input and results.</p>
+            <p id="p1">Technologies:- HTML, CSS, JavaScript.</p>
+            <p id="p1">GitHub:- <a href="#" target="_blank">Click Here</a></p>
+           <!--  <p id="p1">Demo:- <a href="#" target="_blank">Live Demo</a></p>
+           --></div>
+
+        <div class="project" id="praject-2">
+            <h2 style="color: white;">Project 2: Api</h2>
+            <p id="p1">Description:- developed an simple console application with depend on basics of java(Oops concept, Collecton framework, Exception Handling) and using MySQL database with Hibernate framework.</p>
+            <p id="p1">Technologies:- Java, hibernate, MySql.</p>
+            <p id="p1">GitHub:- <a href="#" target="_blank">Click Here</a></p>
+         <!--   <p id="p1">Demo:- <a href="#" target="_blank">Live Demo</a></p>
+        -->       
+        </div>
+    </section>
+    <!--Resume-->
+    <section id="resume">
+        <div>
+            <h1  class="headings" style="color: white;">Resume</h1>
+            <div><a href="./resume/Prasad's Resume NEW.pdf" download>
+                <button id="btn-resume">View Resume</button>
+            </a>
+           </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="prasaddmane743@gmail.com" method="post" enctype="text/plain" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your name" required>
+            <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Message" required></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+
+    </section>
+    <hr size="4px" color="white">
+    <!--Footer-->
+    <footer>
+        <section class="footer">
+            <div class="footer-content">
+
+                <div class="footer-section">
+                    <h2 style="color:white;">Find Me</h2>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/404____prasad/" target="_blank">
+                        <img src="./image/insta.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/prasad-mane-56017723b/" target="_blank">
+                        <img src="./image/linkedinpng.png " alt="LinkedIn">
+                    </a>
+                    <a href="https://twitter.com/PrasadMane743" target="_blank">
+                        <img src="./image/twiter_2.png" alt="Twitter">
+                    </a>
+                    <p id="p" style="color:white;"><br>&copy; Prasad's Portfilio.&nbsp;&nbsp; All rights reserved.</p>
+                    <p id="p" style="color:white;"><br>&nbsp;&nbsp; Created BY, Prasad Mane</p>
+                </div>
+
+                <div class="footer-section" id="cont">
+                    <h2 style="color:white;">Contact Us</h2>
+                    <p style="color: white;">Email: prasadmane21@gmail.com</p><br>
+                    <p style="color: white;">Phone: (+91) 7972995504</p>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
