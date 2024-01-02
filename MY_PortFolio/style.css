@@ -234,6 +234,7 @@ p{
 /*Resume Section*/
 #resume{
     background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 20px;
 }
 #btn-resume{
     display: flex;
@@ -256,7 +257,7 @@ p{
     cursor: pointer;
     background-color: white;
     color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white,0 0 20px white;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 10px white;
     font-weight: bold;
 }
 a btn-resume{
