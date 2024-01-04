@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Simple Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
 </head>
 <body>
 
-  <div class="calculator">
-    <input type="text" id="display" disabled>
-    <div class="buttons">
-      <button onclick="clearDisplay()">C</button>
-      <button onclick="appendToDisplay('/')">/</button>
-      <button onclick="appendToDisplay('*')">*</button>
-      <button onclick="appendToDisplay('7')">7</button>
-      <button onclick="appendToDisplay('8')">8</button>
-      <button onclick="appendToDisplay('9')">9</button>
-      <button onclick="appendToDisplay('-')">-</button>
-      <button onclick="appendToDisplay('4')">4</button>
-      <button onclick="appendToDisplay('5')">5</button>
-      <button onclick="appendToDisplay('6')">6</button>
-      <button onclick="appendToDisplay('+')">+</button>
-      <button onclick="appendToDisplay('1')">1</button>
-      <button onclick="appendToDisplay('2')">2</button>
-      <button onclick="appendToDisplay('3')">3</button>
-      <button onclick="calculateResult()">=</button>
-      <button onclick="appendToDisplay('0')">0</button>
-      <button onclick="appendToDisplay('.')">.</button>
-    </div>
-  </div>
+<div id="calculator">
+  <h4>Calculator</h4>
+    <input type="text" id="display" >
+    <br>
+    <button id="7" onclick="appendValue('7')">7</button>
+    <button id="8" onclick="appendValue('8')">8</button>
+    <button id="9" onclick="appendValue('9')">9</button>
+    <button id="divide " onclick="setOperation('/')">/</button>
+    <br>
+    <button id="4" onclick="appendValue('4')">4</button>
+    <button id="5" onclick="appendValue('5')">5</button>
+    <button id="6" onclick="appendValue('6')">6</button>
+    <button id="multiple" onclick="setOperation('*')">*</button>
+    <br>
+    <button id="1" onclick="appendValue('1')">1</button>
+    <button id="2" onclick="appendValue('2')">2</button>
+    <button id="3" onclick="appendValue('3')">3</button>
+    <button id="minus" onclick="setOperation('-')">-</button>
+    <br>
+    <button id="0" onclick="appendValue('0')">0</button>
+    <button id="c" onclick="clearDisplay()">C</button>
+    <button id="equal" onclick="calculateResult()">=</button>
+    <button id="plus" onclick="setOperation('+')">+</button>
 
-  <script src="script.js"></script>
+
+</div>
+
+<script src="script.js">
+    
+</script>
+
 </body>
 </html>
