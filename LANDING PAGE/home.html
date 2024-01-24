@@ -1,25 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <nav class="navbar">
-            <ul id ='li'>
-                <li>home</li>
-                <li>Service</li>
-                <li>About </li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="heading">Landing Page</div>
+      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#Home">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="sideNavigationBar" id="sideNavigationBar">
+      <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Sign Up</a>
     </div>
-    <div id="home">
-        <img id='img-1' src="./image/—Pngtree—web development illustration modern_4461019.png" alt="">
+
+    <!-- Content -->
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>Prasad Mane</h1>
+        <button>
+          <a href="https://www.linkedin.com/in/prasad-mane-56017723b" style="margin-bottom: 20px;">
+            Explore More
+          </a>
+        </button>
+      </div>
     </div>
-    <div></div>
-</body>
+
+    <section class="about" id="My Projects">
+      <div class="content">
+        <div class="title">
+          <span>Projects</span>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Portfolio </a>
+            </div>
+            <p>
+              My portfolio is a dynamic display of my design expertise,
+              highlighting projects that seamlessly blend aesthetics and
+              functionality. Connect with me through the contact section to
+              discuss collaborations, or delve into my background and skills in
+              the resume section.
+            </p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Recruitment System </a>
+            </div>
+            <p>
+              I successfully developed a recruitment system project. This
+              project streamlines the hiring process, providing an efficient and
+              user-friendly platform. The system incorporates robust
+              functionalities, ensuring seamless candidate management and
+              improved workflow. With a clean and intuitive design, it enhances
+              the overall recruitment experience.
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> ATM interface </a>
+            </div>
+            <p>
+              Designing an ATM (Automated Teller Machine) interface involves
+              creating a user-friendly experience for banking transactions. The
+              interface typically includes a secure login, intuitive navigation
+              for various transactions (withdrawals, deposits, transfers),
+              real-time balance updates, and clear prompts for user guidance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Sign Up</span></div>
+        <div class="contactMenu">
+          <div class="input1">
+            <div class="label1">Your Name</div>
+            <div class="input2">
+              <input type="text" placeholder="" />
+            </div>
+            <div class="label1">
+              <label>Your Email</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="" />
+            </div>
+            <div class="label1">
+              <label>Your Password</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="" />
+            </div>
+            <div class="button">
+              <button>Sign Up</button>
+            </div>
+          </div>
+          <div class="input3">
+            <div class="rightside1">
+              <div class="title1">
+                <span> Contact Us </span>
+              </div>
+              <div class="content1">
+                Mob : +91 7972995504<br />
+                Email : prasadmane150@gmail.com
+              </div>
+              <div class="title1">
+                <span>More Information</span>
+              </div>
+              <div class="content1">
+                I am a dedicated and versatile designer, passionate about
+                creating visually compelling experiences. With a keen eye for
+                detail and a love for innovation, I bring ideas to life through
+                sleek and functional design. My work reflects a commitment to
+                excellence, blending creativity with user-centric solutions. As
+                a collaborative and adaptable professional, I thrive on turning
+                challenges into opportunities. Let's embark on a design journey
+                together.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+      <div class="footer">
+        <span>
+          Created By
+          <a href="linkedin.com/in/prasad-mane-56017723b" target="_blank">
+            Prasad.
+          </a>
+        </span>
+      </div>
+    </footer>
+   
+  </body>
 </html>
