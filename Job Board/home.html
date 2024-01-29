@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<title> 
+		Design a Job Search Portal 
+		using HTML and CSS 
+	</title> 
+	
+	<link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body> 
+	<header> 
+		<h1>Job Search Portal</h1> 
+	</header> 
+	<nav> 
+		<ul> 
+			<li><a href="#">Home</a></li> 
+			<li><a href="#">Jobs</a></li> 
+			<li><a href="#">Companies</a></li> 
+			<li><a href="#">About Us</a></li> 
+			<li><a href="#">Contact</a></li> 
+		</ul> 
+	</nav> 
+	<section class="search"> 
+		<h2>Find Your Dream Job</h2> 
+		<form action="#" method="get"> 
+			<input type="text" name="keywords"
+				placeholder="Keywords" > 
+			<input type="text" name="location"
+				placeholder="Location" > 
+			<input type="text" name="company"
+				placeholder="Company" > 
+			<button type="submit" onclick="search();"> 
+				Search 
+			</button> 
+		</form> 
+	</section> 
+
+	<section class="job-listings"> 
+		<h2>Latest Job Listings</h2> 
+		<ul> 
+			<li> 
+				<h3 class="mumbai">Web Developer</h3> 
+				<p>Company: AX Tech</p> 
+				<p>Location: Mumbai</p> 
+				<p>Description: We Need a Freshers Web Developer</p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+			<li class="banglore"> 
+				<h3>web Designer</h3> 
+				<p>Company: ENT Tech</p> 
+				<p>Location: Banglore</p> 
+				<p>Description: We Need a Good Web Designer</p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+            <li class="pune"> 
+				<h3>Graphic Designer</h3> 
+				<p>Company: klt design</p> 
+				<p>Location: Pune</p> 
+				<p>Description: Need a Good Graphic Designer</p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+            <li class="Hybrabad"> 
+				<h3>Software Dev</h3> 
+				<p>Company: A Solutionsn</p> 
+				<p>Location: Hybrabad</p> 
+				<p>Description: Need a Software Developer with 1+ year Exp.</p> 
+				<a href="#">Apply Now</a> 
+			</li>
+            <li class="Satara"> 
+				<h3>Support Engineer</h3> 
+				<p>Company: A Solution</p> 
+				<p>Location: Satara</p> 
+				<p>Description: Need a Support Engineer with 3+ year Exp.</p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+            <li class="pune"> 
+				<h3>Frontend Dev</h3> 
+				<p>Company: XTS Tech</p> 
+				<p>Location: Pune </p> 
+				<p>Description: We Need a Expert Frontend Developer with 2+ years Exp.</p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+            <li class="mumbai"> 
+				<h3>Backend Dev</h3> 
+				<p>Company: GrowUp Ltd</p> 
+				<p>Location: Mumbai </p> 
+				<p>Description: We Need a Proficient Backend Developer With 5+ Year Exp. </p> 
+				<a href="#">Apply Now</a> 
+			</li> 
+		</ul> 
+	</section> 
+	
+	<footer> 
+		<p>© 2024 Job Search Portal <br><span style="font-weight: bold;">Created By Prasad</span></p> 
+	</footer> 
+</body> 
+<script>
+    function search(){
+        var Location=document.getElementsByClassName('mumbai').value;
+        var Location=document.getElementsByClassName('pune').value;
+        var Location=document.getElementsByClassName('Hybrabad').value;
+        var Location=document.getElementsByClassName('banglore').value;   
+    }
+    if(location==Location){
+        return Location;
+    }
+</script>
+</html>

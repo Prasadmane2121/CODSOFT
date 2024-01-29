@@ -1,5 +1,5 @@
-let currentValue = '';
-    let currentOperation = '';
+let currentValue ='';
+    let currentOperation ='';
     let displayedValue = document.getElementById('display');
 
     function appendValue(value) {
@@ -20,7 +20,7 @@ let currentValue = '';
 
     function calculateResult() {
         currentValue = eval(currentValue);
-        displayedValue.value = "= "+ currentValue;
+        displayedValue.value = "="+ currentValue;
     }
     function backspace() {
         currentValue = currentValue.slice(0, -1);
